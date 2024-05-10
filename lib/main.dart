@@ -17,6 +17,7 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'chrisart',
       theme: ThemeData(
         // This is the theme of your application.
